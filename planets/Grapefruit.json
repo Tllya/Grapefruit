@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Grapefruit",
+    "starSystem": "tlya.Grapefruit",
+    "Base": {
+        "surfaceGravity": 25,
+        "surfaceSize": 500,
+        "hasMapMarker": true,
+        "gravityFallOff": "inverseSquared",
+        "centerOfSolarSystem": true
+    },
+    "Orbit": {"isStatic": true},
+    "Star": {
+        "size": 1000,
+        "tint": {"R": 255, "G": 20, "B": 10, "A": 255},
+        "solarFlareTint": {"R": 255, "G": 20, "B": 10, "A": 255},
+        "solarLuminosity": 0.6
+    }
+}

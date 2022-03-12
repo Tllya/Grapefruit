@@ -1,0 +1,24 @@
+{
+	"name" : "Dragonfruit",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"starSystem": "tlya.Grapefruit",
+	"Base": {
+      "surfaceSize": 101,
+      "surfaceGravity": 10,
+      "groundsize": 100,
+      "hasMapMarker": true,
+	  "centerOfSolarSystem": true
+  },
+    "Orbit": {
+      "semiMajorAxis": 4000,
+      "primaryBody": "Grapefruit",
+      "isMoon": false,
+      "isTidallyLocked": false,
+      "argumentOfPeriapsis": 0,
+  },
+	"Spawn": {
+		"playerSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
+        "shipSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
+        "startWithSuit": true
+    }
+}
