@@ -3,18 +3,33 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"starSystem": "tlya.Grapefruit",
 	"Base": {
-      "surfaceSize": 101,
-      "surfaceGravity": 10,
-      "groundsize": 100,
+      "surfaceSize": 600,
+      "surfaceGravity": 15,
+      "groundsize": 300,
       "hasMapMarker": true,
-	  "centerOfSolarSystem": true
+	  "centerOfSolarSystem": false
   },
     "Orbit": {
-      "semiMajorAxis": 4000,
+      "semiMajorAxis": 8000,
       "primaryBody": "Grapefruit",
+      "eccentricity": 0.3,
       "isMoon": false,
       "isTidallyLocked": false,
-      "argumentOfPeriapsis": 0,
+  },
+  "Atmosphere": {
+  	"size": 300,
+  	"hasatmosphere": true,
+  	"fogsize": 40,
+  	"fogdenisty": 0.4,
+  	"fogtint": {
+  		"R": 202,
+  		"G": 125,
+  		"B": 165,
+  		"A": 1
+  	}
+  },
+  "HeightMap": {
+    "HeightMap": "planets/assets/dragon_terrarian_map.png",
   },
 	"Spawn": {
 		"playerSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
