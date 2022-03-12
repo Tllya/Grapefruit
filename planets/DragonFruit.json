@@ -12,15 +12,15 @@
     "Orbit": {
       "semiMajorAxis": 8000,
       "primaryBody": "Grapefruit",
-      "eccentricity": 0.3,
+      "eccentricity": 0.25,
       "isMoon": false,
       "isTidallyLocked": false,
   },
   "Atmosphere": {
-  	"size": 300,
+  	"size": 400,
   	"hasatmosphere": true,
-  	"fogsize": 40,
-  	"fogdenisty": 0.4,
+  	"fogsize": 80,
+  	"fogdenisty": 0.8,
   	"fogtint": {
   		"R": 202,
   		"G": 125,
@@ -30,6 +30,8 @@
   },
   "HeightMap": {
     "HeightMap": "planets/assets/dragon_terrarian_map.png",
+    "MinHeight": 400,
+    "MaxHeight": 700
   },
 	"Spawn": {
 		"playerSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
