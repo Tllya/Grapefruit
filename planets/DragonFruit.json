@@ -5,7 +5,7 @@
 	"Base": {
       "surfaceSize": 400,
       "surfaceGravity": 15,
-      "groundsize": 400,
+      "groundsize": 405,
       "hasMapMarker": true,
 	  "centerOfSolarSystem": false
   },
@@ -16,17 +16,25 @@
       "isMoon": false,
       "SiderealPeriod": 4,
       "isTidallyLocked": false,
+      "ArgumentOfPeriapsis": 90,
+      "TrueAnomaly": 90
   },
   "Atmosphere": {
-  	"size": 400,
+  	"size": 500,
   	"hasatmosphere": true,
-  	"fogsize": 80,
+  	"hasOxygen": true,
+  	"fogsize": 150,
   	"fogdenisty": 0.8,
   	"fogtint": {
   		"R": 202,
   		"G": 125,
   		"B": 165,
   		"A": 255
+  	},
+  	"Ring": {
+  		"InnerRadius": 700,
+  		"OuterRadius": 900,
+  		"Texture": "planets/assets/default_rings.png"
   	}
   },
   "HeightMap": {
@@ -35,9 +43,17 @@
     "MaxHeight": 440,
     "TextureMap": "planets/assets/dragonfruit_texture.png"
   },
+  "Water": {
+  	"Size": 420,
+  	"Tint": {
+  		"R": 169,
+  		"G": 53,
+  		"B": 215
+  	}
+  },
 	"Spawn": {
-		"playerSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
-        "shipSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
-        "startWithSuit": true
+		"playerSpawnPoint": {"x": -339, "y": 174, "z": -183},
+        "shipSpawnPoint": {"x": -331.0269, "y": 180.045, "z": -192.4173},
+        "startWithSuit": false
     }
 }
