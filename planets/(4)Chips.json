@@ -1,0 +1,38 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Chips",
+    "starSystem": "tlya.Grapefruit",
+    "Base": {
+        "hasAmbientLight": true,
+        "hasMapMarker": true,
+	"groundSize": 101,
+        "surfaceSize": 101,
+        "surfaceGravity": 10
+    },
+    "Orbit": {
+        "semiMajorAxis": 16000,
+        "primaryBody": "Grapefruit",
+        "isTidallyLocked": true,
+        "showOrbitLine": true,
+        "argumentOfPeriapsis": 125,
+        "tint": {"R": 222, "G": 226, "B": 112}
+     },
+     "Atmosphere": {
+		"size": 500,
+  		"hasatmosphere": true,
+  		"fogsize": 150,
+  		"fogdenisty": 0.8,
+  		"fogtint": {
+  			"R": 212,
+  			"G": 217,
+  			"B": 85,
+  			"A": 255
+  		}
+    },
+     "HeightMap": {
+        "HeightMap": "planets/assets/Chips-heightmap.png",
+        "MinHeight": 400,
+        "MaxHeight": 420,
+        "TextureMap": "planets/assets/Chips-colourmap.png.png"
+    },
+}
