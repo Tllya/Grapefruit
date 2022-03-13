@@ -20,7 +20,7 @@
         "primaryBody": "Grapefruit",
         "isTidallyLocked": true,
         "showOrbitLine": true,
-        "argumentOfPeriapsis": 125,
+        "argumentOfPeriapsis": 275,
         "tint": {"R": 251, "G": 4, "B": 178}
      }
 }
