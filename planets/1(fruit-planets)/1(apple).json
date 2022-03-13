@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Apple",
+    "starSystem": "tlya.Grapefruit",
+    "Base": {
+        "hasAmbientLight": true,
+        "hasMapMarker": true,
+        "surfaceSize": 400,
+	"groundsize": 400,
+        "surfaceGravity": 10
+    },
+    "Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": -655.65454, "y": 227.4736, "z": 183.9742},
+		"shipSpawnPoint" :
+		{"x": -655.65454, "y": 227.4736, "z": 183.9742},
+		"startwithSuit" : true
+	},
+    "HeightMap": {
+    	"HeightMap": "planets/assets/Apple-heightmap.png",
+    	"MinHeight": 400,
+    	"MaxHeight": 420,
+    	"TextureMap": "planets/assets/Apple-colourmap.png"
+    },
+    "Orbit": {
+        "semiMajorAxis": 5000,
+        "primaryBody": "Grapefruit",
+        "isTidallyLocked": true,
+        "showOrbitLine": true,
+        "argumentOfPeriapsis": 0,
+        "tint": {"R": 40, "G": 207, "B": 63}
+	}
+}

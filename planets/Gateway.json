@@ -1,0 +1,11 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name": "Timber Heart",
+	"Singularity": 
+	   {
+		"Type" : "BlackHole",
+		"TargetStarSystem" : "tlya.Grapefruit",
+		"Size": 2,
+		"Position" : {"x": 12, "y": -51, "z": 183} 
+	   }
+}
