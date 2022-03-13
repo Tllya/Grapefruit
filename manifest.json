@@ -1,8 +1,8 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "Tlya & egwuregwu",
+  "author": "Tlya, egwuregwu & Akto31",
   "name": "Grapefruit",
-  "uniqueName": "Tlya.ttestt",
+  "uniqueName": "Tlya.Grapefruit",
   "version": "0.1.0",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
