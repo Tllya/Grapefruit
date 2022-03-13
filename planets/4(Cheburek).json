@@ -30,9 +30,9 @@
   		}
     },
      "HeightMap": {
-        "HeightMap": "planets/assets/Chips-heightmap.png",
+        "HeightMap": "planets/assets/Cheburek-heightmap.png",
         "MinHeight": 0,
         "MaxHeight": 120,
-        "TextureMap": "planets/assets/Chips-colourmap.png"
+        "TextureMap": "planets/assets/Cheburek-colourmap.png"
     }
 }
