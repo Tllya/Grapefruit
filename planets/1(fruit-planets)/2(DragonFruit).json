@@ -30,12 +30,12 @@
   		"G": 125,
   		"B": 165,
   		"A": 255
-  	},
-  	"Ring": {
-  		"InnerRadius": 700,
-  		"OuterRadius": 900,
-  		"Texture": "planets/assets/default_rings.png"
   	}
+  },
+  "Ring": {
+  	"InnerRadius": 700,
+  	"OuterRadius": 900,
+  	"Texture": "planets/assets/default_rings.png"
   },
   "HeightMap": {
     "HeightMap": "planets/assets/dragonfruit_height_map.png",

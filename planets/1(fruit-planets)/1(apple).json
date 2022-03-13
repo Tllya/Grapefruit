@@ -5,7 +5,7 @@
     "Base": {
         "hasAmbientLight": true,
         "hasMapMarker": true,
-        "surfaceSize": 184,
+        "surfaceSize": 400,
 	"groundsize": 400,
         "surfaceGravity": 10
     },
