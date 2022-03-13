@@ -33,9 +33,11 @@
   	}
   },
   "Ring": {
-  	"InnerRadius": 700,
-  	"OuterRadius": 900,
-  	"Texture": "planets/assets/default_rings.png"
+  	"InnerRadius": 550,
+  	"OuterRadius": 780,
+    "inclination": 45,
+    "rotationSpeed": 10,
+  	"Texture": "planets/assets/planet_rings.png"
   },
   "HeightMap": {
     "HeightMap": "planets/assets/dragonfruit_height_map.png",
