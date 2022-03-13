@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Test",
+    "starSystem": "tlya.Grapefruit",
+    "Base": {
+        "hasAmbientLight": true,
+        "hasMapMarker": true,
+        "surfaceSize": 184,
+        "surfaceGravity": 10
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
+        "shipSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
+        "startWithSuit": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 2000,
+        "primaryBody": "Grapefruit",
+        "isTidallyLocked": true,
+        "showOrbitLine": true,
+        "argumentOfPeriapsis": 125,
+        "tint": {"R": 40, "G": 207, "B": 63}
+	}
+}
