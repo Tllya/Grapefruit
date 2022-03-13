@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-    "name": "Chips",
+    "name": "Cheburek",
     "starSystem": "tlya.Grapefruit",
     "Base": {
         "hasAmbientLight": true,
         "hasMapMarker": true,
-	"groundSize": 101,
+	"groundSize": 0,
         "surfaceSize": 101,
         "surfaceGravity": 10
     },
@@ -31,8 +31,8 @@
     },
      "HeightMap": {
         "HeightMap": "planets/assets/Chips-heightmap.png",
-        "MinHeight": 400,
-        "MaxHeight": 420,
-        "TextureMap": "planets/assets/Chips-colourmap.png.png"
-    },
+        "MinHeight": 0,
+        "MaxHeight": 120,
+        "TextureMap": "planets/assets/Chips-colourmap.png"
+    }
 }
