@@ -9,14 +9,6 @@
         "gravityFallOff": "inverseSquared",
         "centerOfSolarSystem": true
     },
-    "Spawn" : 
-	{
-		"playerSpawnPoint" :
-		{"x": -55.65454, "y": 227.4736, "z": 183.9742},
-		"shipSpawnPoint" :
-		{"x": -59.18244, "y": 215.5915, "z": 196.174},
-		"startwithSuit" : true
-	},
     "Orbit": {"isStatic": true},
     "Star": {
         "size": 1000,

@@ -8,6 +8,20 @@
         "surfaceSize": 184,
         "surfaceGravity": 10
     },
+    "Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": -655.65454, "y": 227.4736, "z": 183.9742},
+		"shipSpawnPoint" :
+		{"x": -655.65454, "y": 227.4736, "z": 183.9742},
+		"startwithSuit" : true
+	},
+    "HeightMap": {
+    	"HeightMap": "planets/assets/Apple-heightmap.png",
+    	"MinHeight": 400,
+    	"MaxHeight": 420,
+    	"TextureMap": "planets/assets/Apple-colourmap.png"
+    },
     "Orbit": {
         "semiMajorAxis": 5000,
         "primaryBody": "Grapefruit",
