@@ -6,7 +6,7 @@
         "hasAmbientLight": true,
         "hasMapMarker": true,
         "surfaceSize": 184,
-	"groundsize": 405,
+	"groundsize": 400,
         "surfaceGravity": 10
     },
     "Spawn" : 
