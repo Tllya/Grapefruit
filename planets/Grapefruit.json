@@ -15,5 +15,26 @@
         "tint": {"R": 255, "G": 20, "B": 10, "A": 255},
         "solarFlareTint": {"R": 255, "G": 20, "B": 10, "A": 255},
         "solarLuminosity": 0.6
+    },
+    "ShipLog": {
+        "xmlFile": "planets/shiplogs/GRAPEFRUIT.xml",
+        "spriteFolder": "planets/shiplogs/sprites/facts",
+        "initialReveal": ["GRAPEFRUIT_FACT"],
+        "Curiosities": [
+            {
+                "id": "GRAPEFRUIT_STAR_SYSTEM_CURIOSITY",
+                "color": {"R": 255, "G": 175, "B": 10, "A": 255},
+                "highlightColor": {"R": 255, "G": 255, "B": 70, "A": 255}
+            }
+        ],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/mapmode/GRAPEFRUIT_map_mode.png"
+        },
+        "entryPositions": [
+            {
+                "id": "GRAPEFRUIT_ENTRY",
+                "position": {"x": 0, "y": -200}
+            }
+        ]
     }
 }
