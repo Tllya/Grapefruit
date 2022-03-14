@@ -3,7 +3,7 @@
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
   "starSystem": "tlya.Grapefruit",
   "Base": {
-    "groundSize": 1,
+    "groundSize": 100,
     "surfaceSize": 101,
     "surfaceGravity": 12,
     "hasMapMarker": true
@@ -33,5 +33,12 @@
           "a": 255
         },
         "fogSize": 150,
-        "fogDensity": 0.2
+        "fogDensity": 0.1
       },
+      "HeightMap": {
+        "HeightMap": "planets/assets/Dumplings-heightmap.png",
+        "MinHeight": 100,
+        "MaxHeight": 120,
+        "TextureMap": "planets/assets/Dumplings-colourmap.png"
+      }
+}
