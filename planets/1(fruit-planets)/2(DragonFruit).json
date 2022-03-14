@@ -46,7 +46,7 @@
     "TextureMap": "planets/assets/dragonfruit_texture.png"
   },
   "Water": {
-  	"Size": 420,
+  	"Size": 415,
   	"Tint": {
   		"R": 169,
   		"G": 53,

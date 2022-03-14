@@ -1,0 +1,20 @@
+{
+    "DialogueDictionary" :
+    	{
+		"" : ""
+   	},
+    "ShipLogDictionary" :
+    	{
+		"" : ""
+   	},
+	"UIDictionary" :
+    	{
+		"Grapefruit" : "Грейпфрут",
+		"Gateway to Grapefruit" : "Телепорт на Грейпфрут",
+
+		"Apple" : "Яблоко",
+		"Dragonfruit" : "Драконий фрукт",
+		"Pineapple" : "Ананас",
+		"Cheburek" : "Чебурек"
+    }
+}

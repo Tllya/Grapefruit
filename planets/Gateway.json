@@ -1,11 +1,26 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name": "Timber Heart",
-	"Singularity": 
-	   {
+	"name" : "Timber Hearth",
+	"Singularity" :
+	{
 		"Type" : "BlackHole",
 		"TargetStarSystem" : "tlya.Grapefruit",
-		"Size": 2,
-		"Position" : {"x": 12, "y": -51, "z": 183} 
-	   }
+		"Size" : 4,
+		"Position" : {"x": 32.33457, "y": -49.38859, "z": 183.9816} 
+	},
+	"Signal" :
+	{
+		"Signals" :
+		[
+			{ 
+				"Frequency" : "Default",
+				"name" : "Gateway to Grapefruit",
+				"AudioClip" : "OW_NM_WhiteHoleAmbienceL", 
+				"SourceRadius" : 3, 
+				"Position" : {"x": 32.33457, "y": -49.38859, "z": 183.9816},
+				"IdentificationRadius" : 6,
+				"DetectionRadius" : 10
+			}
+		]
+	}
 }
