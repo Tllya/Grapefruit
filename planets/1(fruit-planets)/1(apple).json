@@ -9,14 +9,6 @@
 	"groundsize": 400,
         "surfaceGravity": 10
     },
-    "Spawn" : 
-	{
-		"playerSpawnPoint" :
-		{"x": -655.65454, "y": 227.4736, "z": 183.9742},
-		"shipSpawnPoint" :
-		{"x": -655.65454, "y": 227.4736, "z": 183.9742},
-		"startwithSuit" : true
-	},
     "HeightMap": {
     	"HeightMap": "planets/assets/Apple-heightmap.png",
     	"MinHeight": 400,
@@ -30,5 +22,29 @@
         "showOrbitLine": true,
         "argumentOfPeriapsis": 0,
         "tint": {"R": 40, "G": 207, "B": 63}
-	}
+	},
+    "ShipLog": {
+	"xmlFile": "planets/ShipLogs/Apple.xml",
+	"spriteFolder": "planets/ShipLogs/facts/sprites",
+	"initialReveal": ["APPLE_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/mapmode/Apple_map_mode.png",
+	    "scale": 1
+    	},
+        "entryPositions": [
+            {
+                "id": "APPLE_ENTRY",
+                "position": {"x": 200, "y": 2000}
+            }
+	]
+	},
+    "Props": {
+        "reveal": [
+            {
+                "radius": 525,
+                "reveals": ["APPLE_LANDING"],
+                "revealOn": "enter"
+            }
+        ]
+}
 }

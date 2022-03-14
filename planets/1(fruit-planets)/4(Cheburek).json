@@ -34,5 +34,12 @@
         "MinHeight": 0,
         "MaxHeight": 120,
         "TextureMap": "planets/assets/Cheburek-colourmap.png"
+    },
+    "ShipLog": {
+	"spriteFolder": "planets/ShipLogs/facts/sprites",
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/mapmode/Cheburek_map_mode.png",
+	    "scale": 1
     }
+}
 }

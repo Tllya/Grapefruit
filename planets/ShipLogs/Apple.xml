@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>APPLE</ID>
+
+    <Entry>
+        <ID>APPLE_ENTRY</ID>
+        <Name>Apple</Name>
+
+        <Curiosity>GRAPEFRUIT_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>APPLE_RUMOR</ID>
+            <SourceID>GRAPEFRUIT_ENTRY</SourceID>
+            <RumorName>Apple</RumorName>
+            <Text>The first planet before Grapefruit.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>APPLE_LANDING</ID>
+            <Text>Apple is a stony yellow-red planet. The hottest planet in the star system.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

@@ -57,5 +57,12 @@
 		"playerSpawnPoint": {"x": -339, "y": 174, "z": -183},
         "shipSpawnPoint": {"x": -331.0269, "y": 180.045, "z": -192.4173},
         "startWithSuit": false
+    },
+    "ShipLog": {
+	"spriteFolder": "planets/ShipLogs/facts/sprites",
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png",
+	    "scale": 1
     }
+}
 }

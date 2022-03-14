@@ -33,7 +33,7 @@
         "entryPositions": [
             {
                 "id": "GRAPEFRUIT_ENTRY",
-                "position": {"x": 0, "y": -200}
+                "position": {"x": 500, "y": 2500}
             }
         ]
     }
