@@ -1,0 +1,42 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Durian",
+    "starSystem": "tlya.Grapefruit",
+    "Base": {
+        "groundSize": 100,
+        "surfacesize": 100,
+        "surfaceGravity": 7,
+        "centerOfSolarSystem": false,
+        "hasAmbientLight": true,
+        "gravityFallOff": "inverseSquared",
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 1000,
+        "primaryBody": "Dragonfruit",
+        "isMoon": true,
+        "showOrbitLine": true,
+        "tint": {
+            "R": 242,
+            "G": 233,
+            "B": 147
+        }
+    },
+    "Atmosphere": {
+        "size": 200,
+        "fogSize": 80,
+        "fogDensity": 0.5,
+        "fogTint": {
+            "R": 198,
+            "G": 183,
+            "B": 31
+        },
+        "hasRain": true
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/durian_height.png",
+        "textureMap": "planets/assets/durian_texture.png",
+        "minHeight": 100,
+        "maxHeight": 103
+    }
+}
