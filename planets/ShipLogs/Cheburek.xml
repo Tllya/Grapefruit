@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>CHEBUREK</ID>
+
+    <Entry>
+        <ID>CHEBUREK_ENTRY</ID>
+        <Name>Cheburek</Name>
+
+        <Curiosity>GRAPEFRUIT_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>CHEBUREK_RUMOR</ID>
+            <SourceID>GRAPEFRUIT_ENTRY</SourceID>
+            <RumorName>Cheburek</RumorName>
+            <Text>The fourth planet from the star. It has a very strange shape.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>CHEBUREK_LANDING</ID>
+            <Text>It's a pretty empty planet. There is nothing interesting here except its shape.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

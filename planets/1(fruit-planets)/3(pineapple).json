@@ -24,10 +24,27 @@
         "tint": {"R": 251, "G": 4, "B": 178}
      },
     "ShipLog": {
-	"spriteFolder": "planets/ShipLogs/facts/sprites",
+	"xmlFile": "planets/ShipLogs/Pineapple.xml",
+	"spriteFolder": "planets/ShipLogs/sprites/facts",
+	"initialReveal": ["PINEAPPLE_RUMOR"],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/mapmode/Pineapple_map_mode.png",
 	    "scale": 1
-    }
+    	},
+        "entryPositions": [
+            {
+                "id": "PINEAPPLE_ENTRY",
+                "position": {"x": 600, "y": 2000}
+            }
+	]
+	},
+    "Props": {
+        "reveal": [
+            {
+                "radius": 525,
+                "reveals": ["PINEAPPLE_LANDING"],
+                "revealOn": "enter"
+            }
+        ]
 }
 }
