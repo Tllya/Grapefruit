@@ -57,5 +57,29 @@
 		"playerSpawnPoint": {"x": -339, "y": 174, "z": -183},
         "shipSpawnPoint": {"x": -331.0269, "y": 180.045, "z": -192.4173},
         "startWithSuit": false
-    }
+    },
+    "ShipLog": {
+	"xmlFile": "planets/ShipLogs/Dragonfruit.xml",
+	"spriteFolder": "planets/ShipLogs/sprites/facts",
+	"initialReveal": ["DRAGONFRUIT_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png",
+	    "scale": 1
+    	},
+        "entryPositions": [
+            {
+                "id": "DRAGONFRUIT_ENTRY",
+                "position": {"x": 400, "y": 2000}
+            }
+	]
+	},
+    "Props": {
+        "reveal": [
+            {
+                "radius": 525,
+                "reveals": ["DRAGONFRUIT_LANDING"],
+                "revealOn": "enter"
+            }
+        ]
+}
 }
