@@ -25,7 +25,7 @@
 	},
     "ShipLog": {
 	"xmlFile": "planets/ShipLogs/Apple.xml",
-	"spriteFolder": "planets/ShipLogs/facts/sprites",
+	"spriteFolder": "planets/ShipLogs/sprites/facts",
 	"initialReveal": ["APPLE_RUMOR"],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/mapmode/Apple_map_mode.png",
