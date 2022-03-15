@@ -38,5 +38,28 @@
         "textureMap": "planets/assets/durian_texture.png",
         "minHeight": 100,
         "maxHeight": 103
-    }
+    },
+    "ShipLog": {
+	"xmlFile": "planets/ShipLogs/Durian.xml",
+	"spriteFolder": "planets/ShipLogs/sprites/facts",
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/mapmode/Durian_map_mode.png",
+	    "scale": 1
+    	},
+        "entryPositions": [
+            {
+                "id": "DURIAN_ENTRY",
+                "position": {"x": 400, "y": 1800}
+            }
+	]
+	},
+    "Props": {
+        "reveal": [
+            {
+                "radius": 127,
+                "reveals": ["DURIAN_LANDING"],
+                "revealOn": "enter"
+            }
+        ]
+}
 }

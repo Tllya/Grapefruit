@@ -77,7 +77,7 @@
         "reveal": [
             {
                 "radius": 525,
-                "reveals": ["DRAGONFRUIT_LANDING"],
+                "reveals": ["DRAGONFRUIT_LANDING","DURIAN_RUMOR"],
                 "revealOn": "enter"
             }
         ]
