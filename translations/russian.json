@@ -5,7 +5,12 @@
    	},
     "ShipLogDictionary" :
     	{
-		"" : ""
+		"Grapefruit star system" : "Звёздная система Грейпфрута",
+		"Apple" : "Яблоко",
+		"Dragonfruit" : "Драконий фрукт",
+		"Pineapple" : "Ананас",
+		"Cheburek" : "Чебурек",
+		"Durian" : "Дуриан"
    	},
 	"UIDictionary" :
     	{
