@@ -34,5 +34,29 @@
         "MinHeight": 0,
         "MaxHeight": 120,
         "TextureMap": "planets/assets/Cheburek-colourmap.png"
-    }
+    },
+    "ShipLog": {
+	"xmlFile": "planets/ShipLogs/Cheburek.xml",
+	"spriteFolder": "planets/ShipLogs/sprites/facts",
+	"initialReveal": ["CHEBUREK_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/mapmode/Cheburek_map_mode.png",
+	    "scale": 1
+    	},
+        "entryPositions": [
+            {
+                "id": "CHEBUREK_ENTRY",
+                "position": {"x": 800, "y": 2000}
+            }
+	]
+	},
+    "Props": {
+        "reveal": [
+            {
+                "radius": 525,
+                "reveals": ["CHEBUREK_LANDING"],
+                "revealOn": "enter"
+            }
+        ]
+}
 }

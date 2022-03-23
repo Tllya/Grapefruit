@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>PINEAPPLE</ID>
+
+    <Entry>
+        <ID>PINEAPPLE_ENTRY</ID>
+        <Name>Pineapple</Name>
+
+        <Curiosity>GRAPEFRUIT_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>PINEAPPLE_RUMOR</ID>
+            <SourceID>GRAPEFRUIT_ENTRY</SourceID>
+            <RumorName>Pineapple</RumorName>
+            <Text>The third planet from the star. It looks like a real pineapple.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>PINEAPPLE_LANDING</ID>
+            <Text>A stony brown planet. Its surface resembles the skin of a pineapple.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

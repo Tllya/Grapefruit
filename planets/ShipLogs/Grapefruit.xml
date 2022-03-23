@@ -1,0 +1,17 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>GRAPEFRUIT</ID>
+
+    <Entry>
+        <ID>GRAPEFRUIT_ENTRY</ID>
+        <Name>Grapefruit star system</Name>
+
+        <Curiosity>GRAPEFRUIT_STAR_SYSTEM_CURIOSITY</Curiosity>
+	<isCuriosity/>
+
+        <ExploreFact>
+            <ID>GRAPEFRUIT_FACT</ID>
+            <Text>A system with 4 planets orbiting a red dwarf. All of the planets here are named after food.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

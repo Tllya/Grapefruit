@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>DRAGONFRUIT</ID>
+
+    <Entry>
+        <ID>DRAGONFRUIT_ENTRY</ID>
+        <Name>Dragonfruit</Name>
+
+        <Curiosity>GRAPEFRUIT_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>DRAGONFRUIT_RUMOR</ID>
+            <SourceID>GRAPEFRUIT_ENTRY</SourceID>
+            <RumorName>Dragonfruit</RumorName>
+            <Text>The second planet from the star.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>DRAGONFRUIT_LANDING</ID>
+            <Text>Dragonfruit has air, water, and atmosphere. The most habitable planet in this star system.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

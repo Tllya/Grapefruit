@@ -1,0 +1,23 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>DURIAN</ID>
+
+    <Entry>
+        <ID>DURIAN_ENTRY</ID>
+        <Name>Durian</Name>
+
+        <Curiosity>GRAPEFRUIT_STAR_SYSTEM_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>DURIAN_RUMOR</ID>
+            <SourceID>DRAGONFRUIT_ENTRY</SourceID>
+            <RumorName>Durian</RumorName>
+            <Text>Dragonfruit's only moon.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>DURIAN_LANDING</ID>
+            <Text>Dragonfruit Moon. It rains all the time here, despite the absence of any water.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>
