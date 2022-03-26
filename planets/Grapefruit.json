@@ -12,8 +12,8 @@
     "Orbit": {"isStatic": true},
     "Star": {
         "size": 1000,
-        "tint": {"R": 255, "G": 20, "B": 10, "A": 255},
-        "solarFlareTint": {"R": 255, "G": 20, "B": 10, "A": 255},
+        "tint": {"R": 255, "G": 40, "B": 15, "A": 255},
+        "solarFlareTint": {"R": 255, "G": 40, "B": 15, "A": 255},
         "solarLuminosity": 0.6
     },
     "ShipLog": {
