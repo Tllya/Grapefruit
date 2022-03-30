@@ -80,6 +80,15 @@
                 "reveals": ["DRAGONFRUIT_LANDING","DURIAN_RUMOR"],
                 "revealOn": "enter"
             }
-        ]
-}
+        ],
+		"geysers" : [
+			{
+				"position" : {
+					"x" : -55.57243,
+					"y" : 405.6387,
+					"z" : 53.09597
+				}
+			}
+		]
+	}
 }
