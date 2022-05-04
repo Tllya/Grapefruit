@@ -66,12 +66,6 @@
 		},
         "startWithSuit": false
     },
-        "shipSpawnPoint": {
-			"x": 17.7667, 
-			"y": 425.2, 
-			"z": 54.36779},
-        "startWithSuit": true
-    },
     "ShipLog": {
 		"xmlFile": "planets/ShipLogs/Dragonfruit.xml",
 		"spriteFolder": "planets/ShipLogs/sprites/facts/Dragonfruit",
