@@ -45,41 +45,115 @@
     "MaxHeight": 440,
     "TextureMap": "planets/assets/dragonfruit_texture.png"
   },
-  "Water": {
-  	"Size": 415,
-  	"Tint": {
-  		"R": 169,
-  		"G": 53,
-  		"B": 215
-  	}
-  },
-	"Spawn": {
-		"playerSpawnPoint": {"x": -339, "y": 174, "z": -183},
-        "shipSpawnPoint": {"x": -331.0269, "y": 180.045, "z": -192.4173},
+  	"Water": {
+  		"Size": 415,
+  		"Tint": {
+  			"R": 169,
+  			"G": 53,
+  			"B": 215
+  		}
+  	},
+     "Spawn": {
+		"playerSpawnPoint": {
+			"x": -339, 
+			"y": 174, 
+			"z": -183
+		},
+        "shipSpawnPoint": {
+			"x": -331.0269, 
+			"y": 180.045, 
+			"z": -192.4173
+		},
         "startWithSuit": false
     },
+        "shipSpawnPoint": {
+			"x": 17.7667, 
+			"y": 425.2, 
+			"z": 54.36779},
+        "startWithSuit": true
+    },
     "ShipLog": {
-	"xmlFile": "planets/ShipLogs/Dragonfruit.xml",
-	"spriteFolder": "planets/ShipLogs/sprites/facts",
-	"initialReveal": ["DRAGONFRUIT_RUMOR"],
+		"xmlFile": "planets/ShipLogs/Dragonfruit.xml",
+		"spriteFolder": "planets/ShipLogs/sprites/facts/Dragonfruit",
+		"initialReveal": ["DRAGONFRUIT_RUMOR"],
+		"Curiosities": [
+            {
+                "id": "SECRETS_OF_DRAGONFRUIT_CURIOSITY",
+                "color": {"R": 120, "G": 30, "B": 255, "A": 255},
+                "highlightColor": {"R": 150, "G": 60, "B": 255, "A": 255}
+            }
+        ],
         "MapMode": {
-            "revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png",
-	    "scale": 1
+           	"revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png",
+	    	"scale": 1
     	},
         "entryPositions": [
             {
                 "id": "DRAGONFRUIT_ENTRY",
                 "position": {"x": 400, "y": 2000}
+            },
+			{
+                "id": "DRAGONFRUIT_GEYSERS_ENTRY",
+                "position": {"x": 1800, "y": 2500}
             }
-	]
+		]
 	},
     "Props": {
         "reveal": [
-            {
+			{
                 "radius": 525,
                 "reveals": ["DRAGONFRUIT_LANDING","DURIAN_RUMOR"],
                 "revealOn": "enter"
-            }
-        ]
-}
+            },
+			{
+				"position" : {
+					"x": 17.7667, 
+					"y": 425.2, 
+					"z": 54.36779
+				},
+				"radius": 60,
+				"reveals": [
+					"DRAGONFRUIT_GEYSERS"
+				],
+				"revealOn": "enter"
+			}
+        ],
+		"geysers" : [
+			{
+				"position" : {
+					"x" : -55.57243,
+					"y" : 405.6387,
+					"z" : 53.09597
+				}
+			},
+			{
+				"position" : {
+					"x" : -43.16544,  
+					"y": 416.3369,
+					"z": 85.50848
+				}
+			},
+			{
+				"position" : {
+					"x" : -5.592209,  
+					"y" : 409.5105,
+					"z" : 64.84345 
+				}
+			},
+			{
+				"position" : {
+					"x" : -30.26833,  
+					"y": 428.482,
+					"z": 17.94576
+				}
+			},
+			{
+				"position" : {
+					"x" : 27.73476,  
+					"y": 420.2799,
+					"z": 63.65683
+				}
+			} 
+		]
+	}
 }

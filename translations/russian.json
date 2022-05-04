@@ -12,21 +12,29 @@
 		"Cheburek" : "Чебурек",
 		"Durian" : "Дуриан",
 		
+		"Geyser Field" : "Поле гейзеров",
 		
+
 		"A system with 4 planets orbiting a red dwarf. All of the planets here are named after food." : "Система с 4 планетами, которые вращаются вокруг красного карлика. Все планеты названы в честь еды.",
 		
+
 		"The first planet before Grapefruit." : "Первая планета перед Грейпфрутом.",
 		"Apple is a stony yellow-red planet. The hottest planet in the star system." : "Яблоко - это каменистая желто-красная планета. Самая жаркая планета в системе",
 		
+
 		"The second planet from the star." : "Вторая планета от звезды.",
 		"Dragonfruit has air, water, and atmosphere. The most habitable planet in this star system." : "У этой планеты есть воздух, вода и атмосфера. Самая пригодная для жизни планета в этой системе.",
 		
+		"Near the north pole of Dragonfruit, I found a field with five geysers." : "Рядом с северным полюсом Драконьего фрукта я нашел поле с пятью гейзерами.",
+
 			"Dragonfruit's only moon." : "Единственная луна Драконьего фрукта.",
 			"Dragonfruit Moon. It rains all the time here, despite the absence of any water." : "Луна Драконьего фрукта. Здесь идёт постоянный дождь, несмотря на отсутствие какой-либо воды.",
 		
+
 		"The third planet from the star. It looks like a real pineapple." : "Третья планета от звезды. Выглядит как настоящий ананас.",
 		"A stony brown planet. Its surface resembles the skin of a pineapple." : "Каменистая коричневая планета. Её поверхность похожа на кожуру ананаса.",
 		
+
 		"The fourth planet from the star. It has a very strange shape." : "Четвёртая планета от звезды. У неё очень странная форма.",
 		"It's a pretty empty planet. There is nothing interesting here except its shape." : "Довольно таки пустая планета. Здесь нет ничего интересного кроме её формы."
    	},
@@ -43,4 +51,3 @@
 		"Durian" : "Дуриан"
     }
 }
-

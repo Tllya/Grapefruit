@@ -1,0 +1,9 @@
+{
+	"canEnterViaWarpDrive" : true,
+	"startHere" : false,
+	"coords" : {
+		"x" : [0, 2],
+		"y" : [2, 2],
+		"z" : [2, 3]
+	}
+}

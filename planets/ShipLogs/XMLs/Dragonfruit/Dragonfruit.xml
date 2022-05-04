@@ -1,4 +1,4 @@
-<AstroObjectEntry>
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
     <ID>DRAGONFRUIT</ID>
 
     <Entry>
@@ -17,19 +17,6 @@
         <ExploreFact>
             <ID>DRAGONFRUIT_LANDING</ID>
             <Text>Dragonfruit has air, water, and atmosphere. The most habitable planet in this star system.</Text>
-        </ExploreFact>
-
-    </Entry>
-
-    <Entry>
-        <ID>DRAGONFRUIT_GEYSERS_ENTRY</ID>
-        <Name>Geyser Field</Name>
-
-        <Curiosity>SECRETS_OF_DRAGONFRUIT_CURIOSITY</Curiosity>
-
-        <ExploreFact>
-            <ID>DRAGONFRUIT_GEYSERS</ID>
-            <Text>Near the north pole of Dragonfruit, I found a field with five geysers.</Text>
         </ExploreFact>
 
     </Entry>
