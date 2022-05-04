@@ -53,12 +53,19 @@
   			"B": 215
   		}
   	},
-	"Spawn": {
+     "Spawn": {
 		"playerSpawnPoint": {
-			"x": 17.7667, 
-					"y": 425.2, 
-					"z": 54.36779
+			"x": -339, 
+			"y": 174, 
+			"z": -183
 		},
+        "shipSpawnPoint": {
+			"x": -331.0269, 
+			"y": 180.045, 
+			"z": -192.4173
+		},
+        "startWithSuit": false
+    },
         "shipSpawnPoint": {
 			"x": 17.7667, 
 			"y": 425.2, 
