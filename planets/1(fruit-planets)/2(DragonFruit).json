@@ -89,6 +89,10 @@
 			{
                 "id": "DRAGONFRUIT_GEYSERS_ENTRY",
                 "position": {"x": 1800, "y": 2500}
+            },
+			{
+                "id": "DRAGONFRUIT_RAFT_ENTRY",
+                "position": {"x": 1900, "y": 2300}
             }
 		]
 	},

@@ -33,4 +33,17 @@
         </ExploreFact>
 
     </Entry>
+	
+	<Entry>
+        <ID>DRAGONFRUIT_RAFT_ENTRY</ID>
+        <Name>Raft</Name>
+
+        <Curiosity>SECRETS_OF_DRAGONFRUIT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>DRAGONFRUIT_RAFT</ID>
+            <Text>I found a raft on the ocean shore. It's very strange, considering there isn't a living soul here. Who built it?</Text>
+        </ExploreFact>
+
+    </Entry>
 </AstroObjectEntry>
