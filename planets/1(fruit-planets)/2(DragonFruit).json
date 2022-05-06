@@ -104,11 +104,7 @@
                 "revealOn": "enter"
             },
 			{
-				"position" : {
-					"x": 17.7667, 
-					"y": 425.2, 
-					"z": 54.36779
-				},
+				"position" : {"x": -364.7726, "y": 153.6332, "z": -123.2941},
 				"radius": 60,
 				"reveals": [
 					"DRAGONFRUIT_RAFT"
