@@ -80,7 +80,7 @@
         "MapMode": {
            	"revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png",
 	    	"scale": 1
-    	},
+    	}, 
         "entryPositions": [
             {
                 "id": "DRAGONFRUIT_ENTRY",
@@ -112,6 +112,12 @@
 				"revealOn": "enter"
 			}
         ],
+		"rafts": 
+		[
+			{
+				"position" : {"x": -364.7726, "y": 153.6332, "z": -123.2941}
+			}
+		],
 		"geysers" : [
 			{
 				"position" : {
