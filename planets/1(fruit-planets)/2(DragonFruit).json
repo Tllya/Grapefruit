@@ -111,7 +111,7 @@
 				},
 				"radius": 60,
 				"reveals": [
-					"DRAGONFRUIT_GEYSERS"
+					"DRAGONFRUIT_RAFT"
 				],
 				"revealOn": "enter"
 			},
