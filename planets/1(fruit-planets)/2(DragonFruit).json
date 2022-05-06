@@ -114,6 +114,18 @@
 					"DRAGONFRUIT_GEYSERS"
 				],
 				"revealOn": "enter"
+			},
+			{
+				"position" : {
+					"x": -364.6545, 
+					"y": 154.1303,
+					"z": -120.5279
+				},
+				"radius": 10,
+				"reveals": [
+					"DRAGONFRUIT_GEYSERS"
+				],
+				"revealOn": "enter"
 			}
         ],
 		"rafts": 
