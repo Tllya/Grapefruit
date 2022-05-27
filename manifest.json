@@ -3,7 +3,7 @@
   "author": "Tlya, egwuregwu & Akto31",
   "name": "Grapefruit",
   "uniqueName": "Tlya.Grapefruit",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
 }
