@@ -21,7 +21,7 @@
   },
   "Atmosphere": {
   	"size": 500,
-  	"hasatmosphere": true,
+  	"useAtmosphereShader": true,
   	"hasOxygen": true,
   	"fogsize": 150,
   	"fogdenisty": 0.8,
