@@ -19,7 +19,7 @@
      },
      "Atmosphere": {
 		"size": 500,
-  		"hasatmosphere": true,
+  		"useAtmosphereShader": true,
   		"fogsize": 150,
   		"fogdenisty": 0.8,
   		"fogtint": {
