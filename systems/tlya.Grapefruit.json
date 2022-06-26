@@ -10,5 +10,58 @@
 		"x" : 0,
 		"y" : 0,
 		"z" : 19000
-	}
+	},
+	"curiosities": [
+		{
+			"id": "GRAPEFRUIT_STAR_SYSTEM_CURIOSITY",
+			"color": {"r": 255, "g": 175, "b": 10, "a": 255},
+			"highlightColor": {"r": 255, "g": 255, "b": 70, "a": 255}
+		},
+		{
+			"id": "SECRETS_OF_DRAGONFRUIT_CURIOSITY",
+			"color": {"r": 120, "g": 30, "b": 255, "a": 255},
+			"highlightColor": {"r": 150, "g": 60, "b": 255, "a": 255}
+		}
+	],
+	"entryPositions": [
+		{
+			"id": "GRAPEFRUIT_ENTRY",
+			"position": {"x": 500, "y": 2500}
+		},
+		{
+			"id": "APPLE_ENTRY",
+			"position": {"x": 200, "y": 2000}
+		},
+		{
+			"id": "DRAGONFRUIT_ENTRY",
+			"position": {"x": 400, "y": 2000}
+		},
+		{
+			"id": "DRAGONFRUIT_GEYSERS_ENTRY",
+			"position": {"x": 1800, "y": 2500}
+		},
+		{
+			"id": "DRAGONFRUIT_RAFT_ENTRY",
+			"position": {"x": 1900, "y": 2300}
+		},
+		{
+			"id": "DURIAN_ENTRY",
+			"position": {"x": 400, "y": 1800}
+		},
+        {
+            "id": "PINEAPPLE_ENTRY",
+             "position": {"x": 600, "y": 2000}
+        },
+		{
+			"id": "CHEBUREK_ENTRY",
+			"position": {"x": 800, "y": 2000}
+		}
+	],
+	"initialReveal": [
+		"GRAPEFRUIT_FACT",
+		"APPLE_RUMOR",
+		"DRAGONFRUIT_RUMOR",
+		"PINEAPPLE_RUMOR",
+		"CHEBUREK_RUMOR"
+	]
 }
