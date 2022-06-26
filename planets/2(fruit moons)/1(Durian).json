@@ -1,13 +1,11 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
     "name": "Durian",
     "starSystem": "tlya.Grapefruit",
     "Base": {
-        "groundSize": 100,
-        "surfacesize": 100,
         "surfaceGravity": 7,
         "centerOfSolarSystem": false,
-        "hasAmbientLight": true,
+        "ambientLight": 0.5,
         "gravityFallOff": "inverseSquared",
         "hasMapMarker": true
     },
@@ -17,9 +15,9 @@
         "isMoon": true,
         "showOrbitLine": true,
         "tint": {
-            "R": 242,
-            "G": 233,
-            "B": 147
+            "r": 242,
+            "g": 233,
+            "b": 147
         }
     },
     "Atmosphere": {
@@ -27,9 +25,9 @@
         "fogSize": 80,
         "fogDensity": 0.5,
         "fogTint": {
-            "R": 198,
-            "G": 183,
-            "B": 31
+            "r": 198,
+            "g": 183,
+            "b": 31
         },
         "hasRain": true
     },
@@ -42,16 +40,10 @@
     "ShipLog": {
 	"xmlFile": "planets/ShipLogs/Durian.xml",
 	"spriteFolder": "planets/ShipLogs/sprites/facts",
-        "MapMode": {
+        "mapMode": {
             "revealedSprite": "planets/shiplogs/sprites/mapmode/Durian_map_mode.png",
 	    "scale": 0.7
-    	},
-        "entryPositions": [
-            {
-                "id": "DURIAN_ENTRY",
-                "position": {"x": 400, "y": 1800}
-            }
-	]
+    	}
 	},
     "Props": {
         "reveal": [

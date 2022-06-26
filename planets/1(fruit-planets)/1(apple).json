@@ -1,19 +1,18 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
     "name": "Apple",
     "starSystem": "tlya.Grapefruit",
     "Base": {
-        "hasAmbientLight": true,
+        "ambientLight": 0.5,
         "hasMapMarker": true,
         "surfaceSize": 400,
-	"groundsize": 400,
         "surfaceGravity": 10
     },
     "HeightMap": {
-    	"HeightMap": "planets/assets/Apple-heightmap.png",
-    	"MinHeight": 400,
-    	"MaxHeight": 420,
-    	"TextureMap": "planets/assets/Apple-colourmap.png"
+    	"heightMap": "planets/assets/Apple-heightmap.png",
+    	"minHeight": 400,
+    	"maxHeight": 420,
+    	"textureMap": "planets/assets/Apple-colourmap.png"
     },
     "Orbit": {
         "semiMajorAxis": 5000,
@@ -26,17 +25,10 @@
     "ShipLog": {
 	"xmlFile": "planets/ShipLogs/Apple.xml",
 	"spriteFolder": "planets/ShipLogs/sprites/facts",
-	"initialReveal": ["APPLE_RUMOR"],
-        "MapMode": {
-            "revealedSprite": "planets/shiplogs/sprites/mapmode/Apple_map_mode.png",
+    "mapMode": {
+        "revealedSprite": "planets/shiplogs/sprites/mapmode/Apple_map_mode.png",
 	    "scale": 1
-    	},
-        "entryPositions": [
-            {
-                "id": "APPLE_ENTRY",
-                "position": {"x": 200, "y": 2000}
-            }
-	]
+        }
 	},
     "Props": {
         "reveal": [

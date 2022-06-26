@@ -1,19 +1,18 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
     "name": "Pineapple",
     "starSystem": "tlya.Grapefruit",
     "Base": {
-        "hasAmbientLight": true,
+        "ambientLight": 0.5,
         "hasMapMarker": true,
-	"groundsize": 400,
         "surfaceSize": 400,
         "surfaceGravity": 10
     },
     "HeightMap": {
-    	"HeightMap": "planets/assets/Pineapple-heightmap.png",
-    	"MinHeight": 400,
-    	"MaxHeight": 420,
-    	"TextureMap": "planets/assets/Pineapple-colourmap.png"
+    	"heightMap": "planets/assets/Pineapple-heightmap.png",
+    	"minHeight": 400,
+    	"maxHeight": 420,
+    	"textureMap": "planets/assets/Pineapple-colourmap.png"
     },
     "Orbit": {
         "semiMajorAxis": 13000,
@@ -26,17 +25,10 @@
     "ShipLog": {
 	"xmlFile": "planets/ShipLogs/Pineapple.xml",
 	"spriteFolder": "planets/ShipLogs/sprites/facts",
-	"initialReveal": ["PINEAPPLE_RUMOR"],
-        "MapMode": {
+        "mapMode": {
             "revealedSprite": "planets/shiplogs/sprites/mapmode/Pineapple_map_mode.png",
 	    "scale": 1
-    	},
-        "entryPositions": [
-            {
-                "id": "PINEAPPLE_ENTRY",
-                "position": {"x": 600, "y": 2000}
-            }
-	]
+    	}
 	},
     "Props": {
         "reveal": [

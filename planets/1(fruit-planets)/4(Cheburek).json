@@ -1,11 +1,10 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
     "name": "Cheburek",
     "starSystem": "tlya.Grapefruit",
     "Base": {
-        "hasAmbientLight": true,
+        "ambientLight": 0.5,
         "hasMapMarker": true,
-	"groundSize": 0,
         "surfaceSize": 101,
         "surfaceGravity": 10
     },
@@ -15,40 +14,32 @@
         "isTidallyLocked": true,
         "showOrbitLine": true,
         "argumentOfPeriapsis": 125,
-        "tint": {"R": 222, "G": 226, "B": 112}
+        "tint": {"r": 222, "g": 226, "b": 112}
      },
      "Atmosphere": {
 		"size": 500,
   		"useAtmosphereShader": true,
-  		"fogsize": 150,
-  		"fogdenisty": 0.8,
-  		"fogtint": {
-  			"R": 212,
-  			"G": 217,
-  			"B": 85,
-  			"A": 255
+  		"fogSize": 150,
+  		"fogTint": {
+  			"r": 212,
+  			"g": 217,
+  			"b": 85,
+  			"a": 255
   		}
     },
      "HeightMap": {
-        "HeightMap": "planets/assets/Cheburek-heightmap.png",
-        "MinHeight": 0,
-        "MaxHeight": 120,
-        "TextureMap": "planets/assets/Cheburek-colourmap.png"
+        "heightMap": "planets/assets/Cheburek-heightmap.png",
+        "minHeight": 0,
+        "maxHeight": 120,
+        "textureMap": "planets/assets/Cheburek-colourmap.png"
     },
     "ShipLog": {
 	"xmlFile": "planets/ShipLogs/Cheburek.xml",
 	"spriteFolder": "planets/ShipLogs/sprites/facts",
-	"initialReveal": ["CHEBUREK_RUMOR"],
-        "MapMode": {
+        "mapMode": {
             "revealedSprite": "planets/shiplogs/sprites/mapmode/Cheburek_map_mode.png",
 	    "scale": 1
-    	},
-        "entryPositions": [
-            {
-                "id": "CHEBUREK_ENTRY",
-                "position": {"x": 800, "y": 2000}
-            }
-	]
+    	}
 	},
     "Props": {
         "reveal": [

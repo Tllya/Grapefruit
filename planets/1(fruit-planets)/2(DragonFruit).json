@@ -1,11 +1,10 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
 	"name" : "Dragonfruit",
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"starSystem": "tlya.Grapefruit",
 	"Base": {
       "surfaceSize": 400,
       "surfaceGravity": 15,
-      "groundsize": 405,
       "hasMapMarker": true,
 	  "centerOfSolarSystem": false
   },
@@ -14,43 +13,42 @@
       "primaryBody": "Grapefruit",
       "eccentricity": 0.25,
       "isMoon": false,
-      "SiderealPeriod": 4,
+      "siderealPeriod": 4,
       "isTidallyLocked": false,
-      "ArgumentOfPeriapsis": 90,
-      "TrueAnomaly": 90
+      "argumentOfPeriapsis": 90,
+      "trueAnomaly": 90
   },
   "Atmosphere": {
   	"size": 500,
   	"useAtmosphereShader": true,
   	"hasOxygen": true,
-  	"fogsize": 150,
-  	"fogdenisty": 0.8,
-  	"fogtint": {
-  		"R": 202,
-  		"G": 125,
-  		"B": 165,
-  		"A": 255
+  	"fogSize": 150,
+  	"fogTint": {
+  		"r": 202,
+  		"g": 125,
+  		"b": 165,
+  		"a": 255
   	}
   },
   "Ring": {
-  	"InnerRadius": 550,
-  	"OuterRadius": 780,
+  	"innerRadius": 550,
+  	"outerRadius": 780,
     "inclination": 45,
     "rotationSpeed": 10,
-  	"Texture": "planets/assets/planet_rings.png"
+  	"texture": "planets/assets/planet_rings.png"
   },
   "HeightMap": {
-    "HeightMap": "planets/assets/dragonfruit_height_map.png",
-    "MinHeight": 400,
-    "MaxHeight": 440,
-    "TextureMap": "planets/assets/dragonfruit_texture.png"
+    "heightMap": "planets/assets/dragonfruit_height_map.png",
+    "minHeight": 400,
+    "maxHeight": 440,
+    "textureMap": "planets/assets/dragonfruit_texture.png"
   },
   	"Water": {
-  		"Size": 415,
-  		"Tint": {
-  			"R": 169,
-  			"G": 53,
-  			"B": 215
+  		"size": 415,
+  		"tint": {
+  			"r": 169,
+  			"g": 53,
+  			"b": 215
   		}
   	},
      "Spawn": {
@@ -69,32 +67,10 @@
     "ShipLog": {
 		"xmlFile": "planets/ShipLogs/Dragonfruit.xml",
 		"spriteFolder": "planets/ShipLogs/sprites/facts/Dragonfruit",
-		"initialReveal": ["DRAGONFRUIT_RUMOR"],
-		"Curiosities": [
-            {
-                "id": "SECRETS_OF_DRAGONFRUIT_CURIOSITY",
-                "color": {"R": 120, "G": 30, "B": 255, "A": 255},
-                "highlightColor": {"R": 150, "G": 60, "B": 255, "A": 255}
-            }
-        ],
-        "MapMode": {
+        "mapMode": {
            	"revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png",
 	    	"scale": 1
-    	}, 
-        "entryPositions": [
-            {
-                "id": "DRAGONFRUIT_ENTRY",
-                "position": {"x": 400, "y": 2000}
-            },
-			{
-                "id": "DRAGONFRUIT_GEYSERS_ENTRY",
-                "position": {"x": 1800, "y": 2500}
-            },
-			{
-                "id": "DRAGONFRUIT_RAFT_ENTRY",
-                "position": {"x": 1900, "y": 2300}
-            }
-		]
+    	}
 	},
     "Props": {
         "reveal": [
