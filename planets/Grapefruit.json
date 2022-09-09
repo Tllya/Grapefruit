@@ -1,25 +1,36 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
-    "name": "Grapefruit",
-    "starSystem": "tlya.Grapefruit",
-    "Base": {
-        "surfaceGravity": 25,
-        "surfaceSize": 500,
-        "hasMapMarker": true,
-        "gravityFallOff": "inverseSquared",
-        "centerOfSolarSystem": true
-    },
-    "Orbit": {"isStatic": true},
-    "Star": {
-        "size": 1000,
-        "tint": {"r": 255, "g": 40, "b": 15, "a": 255},
-        "solarLuminosity": 0.6
-    },
-    "ShipLog": {
-        "xmlFile": "planets/shiplogs/GRAPEFRUIT.xml",
-        "spriteFolder": "planets/shiplogs/sprites/facts",
-        "mapMode": {
-            "revealedSprite": "planets/shiplogs/sprites/mapmode/GRAPEFRUIT_map_mode.png"
-        }
-    }
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Grapefruit",
+	"starSystem": "tlya.Grapefruit",
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "inverseSquared",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 25.0,
+		"surfaceSize": 500.0
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/shiplogs/sprites/mapmode/GRAPEFRUIT_map_mode.png"
+		},
+		"spriteFolder": "planets/shiplogs/sprites/facts",
+		"xmlFile": "planets/shiplogs/GRAPEFRUIT.xml"
+	},
+	"Star": {
+		"size": 1000.0,
+		"solarLuminosity": 0.6,
+		"tint": {
+			"r": 255,
+			"g": 40,
+			"b": 15,
+			"a": 0
+		},
+		"stellarDeathType": "default",
+		"stellarRemnantType": "default"
+	}
 }

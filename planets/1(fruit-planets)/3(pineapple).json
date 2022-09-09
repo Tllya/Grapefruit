@@ -1,42 +1,51 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
-    "name": "Pineapple",
-    "starSystem": "tlya.Grapefruit",
-    "Base": {
-        "ambientLight": 0.5,
-        "hasMapMarker": true,
-        "surfaceSize": 400,
-        "surfaceGravity": 10
-    },
-    "HeightMap": {
-    	"heightMap": "planets/assets/Pineapple-heightmap.png",
-    	"minHeight": 400,
-    	"maxHeight": 420,
-    	"textureMap": "planets/assets/Pineapple-colourmap.png"
-    },
-    "Orbit": {
-        "semiMajorAxis": 13000,
-        "primaryBody": "Grapefruit",
-        "isTidallyLocked": true,
-        "showOrbitLine": true,
-        "argumentOfPeriapsis": 275,
-        "tint": {"R": 251, "G": 4, "B": 178}
-     },
-    "ShipLog": {
-	"xmlFile": "planets/ShipLogs/Pineapple.xml",
-	"spriteFolder": "planets/ShipLogs/sprites/facts",
-        "mapMode": {
-            "revealedSprite": "planets/shiplogs/sprites/mapmode/Pineapple_map_mode.png",
-	    "scale": 1
-    	}
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Pineapple",
+	"starSystem": "tlya.Grapefruit",
+	"Base": {
+		"ambientLight": 0.5,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 400.0
 	},
-    "Props": {
-        "reveal": [
-            {
-                "radius": 525,
-                "reveals": ["PINEAPPLE_LANDING"],
-                "revealOn": "enter"
-            }
-        ]
-}
+	"HeightMap": {
+		"heightMap": "planets/assets/Pineapple-heightmap.png",
+		"maxHeight": 420.0,
+		"minHeight": 400.0,
+		"textureMap": "planets/assets/Pineapple-colourmap.png"
+	},
+	"Orbit": {
+		"primaryBody": "Grapefruit",
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 251,
+			"g": 4,
+			"b": 178,
+			"a": 0
+		},
+		"semiMajorAxis": 13000.0,
+		"argumentOfPeriapsis": 275.0
+	},
+	"Props": {
+		"reveal": [
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"radius": 525.0,
+				"revealOn": "enter",
+				"reveals": [
+					"PINEAPPLE_LANDING"
+				]
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/shiplogs/sprites/mapmode/Pineapple_map_mode.png"
+		},
+		"spriteFolder": "planets/ShipLogs/sprites/facts",
+		"xmlFile": "planets/ShipLogs/Pineapple.xml"
+	}
 }

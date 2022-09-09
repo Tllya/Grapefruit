@@ -1,53 +1,61 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
-    "name": "Cheburek",
-    "starSystem": "tlya.Grapefruit",
-    "Base": {
-        "ambientLight": 0.5,
-        "hasMapMarker": true,
-        "surfaceSize": 101,
-        "surfaceGravity": 10
-    },
-    "Orbit": {
-        "semiMajorAxis": 16000,
-        "primaryBody": "Grapefruit",
-        "isTidallyLocked": true,
-        "showOrbitLine": true,
-        "argumentOfPeriapsis": 125,
-        "tint": {"r": 222, "g": 226, "b": 112}
-     },
-     "Atmosphere": {
-		"size": 500,
-  		"useAtmosphereShader": true,
-  		"fogSize": 150,
-  		"fogTint": {
-  			"r": 212,
-  			"g": 217,
-  			"b": 85,
-  			"a": 255
-  		}
-    },
-     "HeightMap": {
-        "heightMap": "planets/assets/Cheburek-heightmap.png",
-        "minHeight": 0,
-        "maxHeight": 120,
-        "textureMap": "planets/assets/Cheburek-colourmap.png"
-    },
-    "ShipLog": {
-	"xmlFile": "planets/ShipLogs/Cheburek.xml",
-	"spriteFolder": "planets/ShipLogs/sprites/facts",
-        "mapMode": {
-            "revealedSprite": "planets/shiplogs/sprites/mapmode/Cheburek_map_mode.png",
-	    "scale": 1
-    	}
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Cheburek",
+	"starSystem": "tlya.Grapefruit",
+	"Atmosphere": {
+		"fogSize": 150.0,
+		"fogTint": {
+			"r": 212,
+			"g": 217,
+			"b": 85,
+			"a": 0
+		},
+		"size": 500.0,
+		"useAtmosphereShader": true
 	},
-    "Props": {
-        "reveal": [
-            {
-                "radius": 525,
-                "reveals": ["CHEBUREK_LANDING"],
-                "revealOn": "enter"
-            }
-        ]
-}
+	"Base": {
+		"ambientLight": 0.5,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 101.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/Cheburek-heightmap.png",
+		"maxHeight": 120.0,
+		"textureMap": "planets/assets/Cheburek-colourmap.png"
+	},
+	"Orbit": {
+		"primaryBody": "Grapefruit",
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 222,
+			"g": 226,
+			"b": 112,
+			"a": 0
+		},
+		"semiMajorAxis": 16000.0,
+		"argumentOfPeriapsis": 125.0
+	},
+	"Props": {
+		"reveal": [
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"radius": 525.0,
+				"revealOn": "enter",
+				"reveals": [
+					"CHEBUREK_LANDING"
+				]
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/shiplogs/sprites/mapmode/Cheburek_map_mode.png"
+		},
+		"spriteFolder": "planets/ShipLogs/sprites/facts",
+		"xmlFile": "planets/ShipLogs/Cheburek.xml"
+	}
 }

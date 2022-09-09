@@ -1,0 +1,31 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Hi. Does this thing work?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Oh, great! It didn't break in the escape pod crash.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>I lost my friend, Ernesto. I must find him. First I'll go to the North Pole, maybe he's there.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>I hope someone reads this...</Text>
+	</TextBlock>
+<ShipLogConditions>
+    <RevealFact>
+      <FactID>DRAGONFRUIT_CAMPFIRE_ERNESTO</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+	<RevealFact>
+      <FactID>DRAGONFRUIT_GEYSERS_RUMOR</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+</ShipLogConditions>
+</NomaiObject>

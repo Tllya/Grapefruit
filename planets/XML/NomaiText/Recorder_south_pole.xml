@@ -1,0 +1,27 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Hi...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>I found Ernesto...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>But he's dead. He seems to have been roasted at the stake...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>I'll kill whoever did it!!!</Text>
+	</TextBlock>
+<ShipLogConditions>
+    <RevealFact>
+      <FactID>DRAGONFRUIT_DEADFISH_RECORDER</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+</ShipLogConditions>
+</NomaiObject>

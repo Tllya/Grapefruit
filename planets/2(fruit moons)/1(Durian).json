@@ -1,57 +1,62 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
-    "name": "Durian",
-    "starSystem": "tlya.Grapefruit",
-    "Base": {
-        "surfaceGravity": 7,
-        "centerOfSolarSystem": false,
-        "ambientLight": 0.5,
-        "gravityFallOff": "inverseSquared",
-        "hasMapMarker": true
-    },
-    "Orbit": {
-        "semiMajorAxis": 1000,
-        "primaryBody": "Dragonfruit",
-        "isMoon": true,
-        "showOrbitLine": true,
-        "tint": {
-            "r": 242,
-            "g": 233,
-            "b": 147
-        }
-    },
-    "Atmosphere": {
-        "size": 200,
-        "fogSize": 80,
-        "fogDensity": 0.5,
-        "fogTint": {
-            "r": 198,
-            "g": 183,
-            "b": 31
-        },
-        "hasRain": true
-    },
-    "HeightMap": {
-        "heightMap": "planets/assets/durian_height.png",
-        "textureMap": "planets/assets/durian_texture.png",
-        "minHeight": 100,
-        "maxHeight": 103
-    },
-    "ShipLog": {
-	"xmlFile": "planets/ShipLogs/Durian.xml",
-	"spriteFolder": "planets/ShipLogs/sprites/facts",
-        "mapMode": {
-            "revealedSprite": "planets/shiplogs/sprites/mapmode/Durian_map_mode.png",
-	    "scale": 0.7
-    	}
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Durian",
+	"starSystem": "tlya.Grapefruit",
+	"Atmosphere": {
+		"fogDensity": 0.5,
+		"fogSize": 80.0,
+		"fogTint": {
+			"r": 198,
+			"g": 183,
+			"b": 31,
+			"a": 0
+		},
+		"hasRain": true,
+		"size": 200.0
 	},
-    "Props": {
-        "reveal": [
-            {
-                "radius": 127,
-                "reveals": ["DURIAN_LANDING"],
-                "revealOn": "enter"
-            }
-        ]
-}
+	"Base": {
+		"ambientLight": 0.5,
+		"gravityFallOff": "inverseSquared",
+		"hasMapMarker": true,
+		"surfaceGravity": 7.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/durian_height.png",
+		"maxHeight": 103.0,
+		"minHeight": 100.0,
+		"textureMap": "planets/assets/durian_texture.png"
+	},
+	"Orbit": {
+		"primaryBody": "Dragonfruit",
+		"isMoon": true,
+		"tint": {
+			"r": 242,
+			"g": 233,
+			"b": 147,
+			"a": 0
+		},
+		"semiMajorAxis": 1000.0
+	},
+	"Props": {
+		"reveal": [
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"radius": 127.0,
+				"revealOn": "enter",
+				"reveals": [
+					"DURIAN_LANDING"
+				]
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/shiplogs/sprites/mapmode/Durian_map_mode.png",
+			"scale": 0.7
+		},
+		"spriteFolder": "planets/ShipLogs/sprites/facts",
+		"xmlFile": "planets/ShipLogs/Durian.xml"
+	}
 }
