@@ -31,6 +31,18 @@
             <ID>DRAGONFRUIT_GEYSERS</ID>
             <Text>Near the north pole of Dragonfruit, I found a field with five geysers.</Text>
         </ExploreFact>
+		
+		<ExploreFact>
+            <ID>DRAGONFRUIT_GEYSERS_RECORDER</ID>
+            <Text>The recorder at the north pole said that Nomai found nothing at the north pole and decided to go to the south pole</Text>
+        </ExploreFact>
+		
+		<RumorFact>
+            <ID>DRAGONFRUIT_GEYSERS_RUMOR</ID>
+            <SourceID>DRAGONFRUIT_CAMPFIRE_ENTRY</SourceID>
+            <RumorName>North pole</RumorName>
+            <Text>Nomai went to look for his friend Ernesto at the north pole</Text>
+        </RumorFact>
 
     </Entry>
 	
@@ -43,6 +55,61 @@
         <ExploreFact>
             <ID>DRAGONFRUIT_RAFT</ID>
             <Text>I found a raft on the ocean shore. It's very strange, considering there isn't a living soul here. Who built it?</Text>
+        </ExploreFact>
+		
+		<ExploreFact>
+            <ID>DRAGONFRUIT_RAFT_RECORDER</ID>
+            <Text>The recorder says that Nomai sailed away on a raft.</Text>
+        </ExploreFact>
+		
+		<RumorFact>
+            <ID>DRAGONFRUIT_RAFT_RUMOR</ID>
+            <SourceID>DRAGONFRUIT_GEYSERS_ENTRY</SourceID>
+            <RumorName>Raft near camp</RumorName>
+            <Text>After unsuccessful searches at the North Pole, Nomai set out on a raft near his camp to sail it to the South Pole</Text>
+        </RumorFact>
+
+    </Entry>
+	
+	<Entry>
+        <ID>DRAGONFRUIT_DEADFISH_ENTRY</ID>
+        <Name>Dead fish</Name>
+
+        <Curiosity>SECRETS_OF_DRAGONFRUIT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>DRAGONFRUIT_DEADFISH</ID>
+            <Text>I found an anglerfish skeleton. What is it doing here?</Text>
+        </ExploreFact>
+		
+		<ExploreFact>
+            <ID>DRAGONFRUIT_DEADFISH_RECORDER</ID>
+            <Text>Nomai was very sad about Ernesto's death.</Text>
+        </ExploreFact>
+		
+		<RumorFact>
+            <ID>DRAGONFRUIT_DEADFISH_RUMOR</ID>
+            <SourceID>DRAGONFRUIT_RAFT_ENTRY</SourceID>
+            <RumorName>South pole</RumorName>
+            <Text>Nomai went to the South Pole in search of Ernesto.</Text>
+        </RumorFact>
+
+    </Entry>
+	
+	<Entry>
+        <ID>DRAGONFRUIT_CAMPFIRE_ENTRY</ID>
+        <Name>Nomai's camp</Name>
+
+        <Curiosity>SECRETS_OF_DRAGONFRUIT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>DRAGONFRUIT_CAMPFIRE</ID>
+            <Text>I found a campfire and a recorder. This looks like Nomai's camp.</Text>
+        </ExploreFact>
+		
+		<ExploreFact>
+            <ID>DRAGONFRUIT_CAMPFIRE_ERNESTO</ID>
+            <Text>The recorder had a recording of Nomai going to look for his friend, Ernesto, at the north pole.</Text>
         </ExploreFact>
 
     </Entry>

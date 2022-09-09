@@ -1,42 +1,50 @@
 {
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
-    "name": "Apple",
-    "starSystem": "tlya.Grapefruit",
-    "Base": {
-        "ambientLight": 0.5,
-        "hasMapMarker": true,
-        "surfaceSize": 400,
-        "surfaceGravity": 10
-    },
-    "HeightMap": {
-    	"heightMap": "planets/assets/Apple-heightmap.png",
-    	"minHeight": 400,
-    	"maxHeight": 420,
-    	"textureMap": "planets/assets/Apple-colourmap.png"
-    },
-    "Orbit": {
-        "semiMajorAxis": 5000,
-        "primaryBody": "Grapefruit",
-        "isTidallyLocked": true,
-        "showOrbitLine": true,
-        "argumentOfPeriapsis": 0,
-        "tint": {"R": 40, "G": 207, "B": 63}
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Apple",
+	"starSystem": "tlya.Grapefruit",
+	"Base": {
+		"ambientLight": 0.5,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 400.0
 	},
-    "ShipLog": {
-	"xmlFile": "planets/ShipLogs/Apple.xml",
-	"spriteFolder": "planets/ShipLogs/sprites/facts",
-    "mapMode": {
-        "revealedSprite": "planets/shiplogs/sprites/mapmode/Apple_map_mode.png",
-	    "scale": 1
-        }
+	"HeightMap": {
+		"heightMap": "planets/assets/Apple-heightmap.png",
+		"maxHeight": 420.0,
+		"minHeight": 400.0,
+		"textureMap": "planets/assets/Apple-colourmap.png"
 	},
-    "Props": {
-        "reveal": [
-            {
-                "radius": 525,
-                "reveals": ["APPLE_LANDING"],
-                "revealOn": "enter"
-            }
-        ]
-}
+	"Orbit": {
+		"primaryBody": "Grapefruit",
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 40,
+			"g": 207,
+			"b": 63,
+			"a": 0
+		},
+		"semiMajorAxis": 5000.0
+	},
+	"Props": {
+		"reveal": [
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"radius": 525.0,
+				"revealOn": "enter",
+				"reveals": [
+					"APPLE_LANDING"
+				]
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/shiplogs/sprites/mapmode/Apple_map_mode.png"
+		},
+		"spriteFolder": "planets/ShipLogs/sprites/facts",
+		"xmlFile": "planets/ShipLogs/Apple.xml"
+	}
 }

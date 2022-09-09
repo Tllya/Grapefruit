@@ -1,147 +1,303 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/Schemas/body_schema.json",
-	"name" : "Dragonfruit",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Dragonfruit",
 	"starSystem": "tlya.Grapefruit",
-	"Base": {
-      "surfaceSize": 400,
-      "surfaceGravity": 15,
-      "hasMapMarker": true,
-	  "centerOfSolarSystem": false
-  },
-    "Orbit": {
-      "semiMajorAxis": 8000,
-      "primaryBody": "Grapefruit",
-      "eccentricity": 0.25,
-      "isMoon": false,
-      "siderealPeriod": 4,
-      "isTidallyLocked": false,
-      "argumentOfPeriapsis": 90,
-      "trueAnomaly": 90
-  },
-  "Atmosphere": {
-  	"size": 500,
-  	"useAtmosphereShader": true,
-  	"hasOxygen": true,
-  	"fogSize": 150,
-  	"fogTint": {
-  		"r": 202,
-  		"g": 125,
-  		"b": 165,
-  		"a": 255
-  	}
-  },
-  "Ring": {
-  	"innerRadius": 550,
-  	"outerRadius": 780,
-    "inclination": 45,
-    "rotationSpeed": 10,
-  	"texture": "planets/assets/planet_rings.png"
-  },
-  "HeightMap": {
-    "heightMap": "planets/assets/dragonfruit_height_map.png",
-    "minHeight": 400,
-    "maxHeight": 440,
-    "textureMap": "planets/assets/dragonfruit_texture.png"
-  },
-  	"Water": {
-  		"size": 415,
-  		"tint": {
-  			"r": 169,
-  			"g": 53,
-  			"b": 215
-  		}
-  	},
-     "Spawn": {
-		"playerSpawnPoint": {
-			"x": -339, 
-			"y": 174, 
-			"z": -183
+	"Atmosphere": {
+		"fogSize": 150.0,
+		"fogTint": {
+			"r": 202,
+			"g": 125,
+			"b": 165,
+			"a": 0
 		},
-        "shipSpawnPoint": {
-			"x": -331.0269, 
-			"y": 180.045, 
-			"z": -192.4173
-		},
-        "startWithSuit": false
-    },
-    "ShipLog": {
-		"xmlFile": "planets/ShipLogs/Dragonfruit.xml",
-		"spriteFolder": "planets/ShipLogs/sprites/facts/Dragonfruit",
-        "mapMode": {
-           	"revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png",
-	    	"scale": 1
-    	}
+		"hasOxygen": true,
+		"size": 500.0,
+		"useAtmosphereShader": true
 	},
-    "Props": {
-        "reveal": [
+	"Base": {
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 15.0,
+		"surfaceSize": 400.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/dragonfruit_height_map.png",
+		"maxHeight": 220.0,
+		"minHeight": 200.0,
+		"textureMap": "planets/assets/dragonfruit_texture.png"
+	},
+	"Orbit": {
+		"primaryBody": "Grapefruit",
+		"siderealPeriod": 4.0,
+		"semiMajorAxis": 8000.0,
+		"eccentricity": 0.25,
+		"argumentOfPeriapsis": 90.0,
+		"trueAnomaly": 90.0
+	},
+	"Props": {
+		"geysers": [
 			{
-                "radius": 525,
-                "reveals": ["DRAGONFRUIT_LANDING","DURIAN_RUMOR"],
-                "revealOn": "enter"
-            },
-			{
-				"position" : {"x": -364.7726, "y": 153.6332, "z": -123.2941},
-				"radius": 60,
-				"reveals": [
-					"DRAGONFRUIT_RAFT"
-				],
-				"revealOn": "enter"
+				"position": {
+					"x": 38.71251,
+					"y": 210.3157,
+					"z": 9.719326
+				}
 			},
 			{
-				"position" : {
-					"x": -364.6545, 
-					"y": 154.1303,
-					"z": -120.5279
-				},
-				"radius": 10,
-				"reveals": [
-					"DRAGONFRUIT_GEYSERS"
-				],
-				"revealOn": "enter"
-			}
-        ],
-		"rafts": 
-		[
+				"position": {
+					"x": 10.12325,
+					"y": 210.1462,
+					"z": 33.2338
+				}
+			},
 			{
-				"position" : {"x": -364.7726, "y": 153.6332, "z": -123.2941}
+				"position": {
+					"x": -24.35706,
+					"y": 212.0121,
+					"z": 14.53043
+				}
+			},
+			{
+				"position": {
+					"x": -16.95142,
+					"y": 210.0293,
+					"z": -33.48634
+				}
+			},
+			{
+				"position": {
+					"x": 25.85311,
+					"y": 205.8335,
+					"z": -38.96812
+				}
 			}
 		],
-		"geysers" : [
+		"nomaiText": [
 			{
-				"position" : {
-					"x" : -55.57243,
-					"y" : 405.6387,
-					"z" : 53.09597
-				}
+				"position": {
+					"x": -189.2498, 
+					"y": -4.835557, 
+					"z": -94.38419
+				},
+				"rotation": {
+					"x": 9.899709,
+					"y": 174.276154,
+					"z": 87.91765
+				},
+				"alignToNormal" : true,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/XML/NomaiText/Recorder_ernesto.xml" 
 			},
 			{
-				"position" : {
-					"x" : -43.16544,  
-					"y": 416.3369,
-					"z": 85.50848
-				}
+				"position": {
+					"x": -2.30154, 
+					"y": 212.388, 
+					"z": -27.63207
+				},
+				"rotation": {
+					"x": 9.899709,
+					"y": 174.276154,
+					"z": 87.91765
+				},
+				"alignToNormal" : true,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/XML/NomaiText/Recorder_north_pole.xml" 
 			},
 			{
-				"position" : {
-					"x" : -5.592209,  
-					"y" : 409.5105,
-					"z" : 64.84345 
-				}
+				"position": {
+					"x": -175.7765, 
+					"y": 90.63478, 
+					"z": -71.81165
+				},
+				"rotation": {
+					"x": -175.7765, 
+					"y": 90.63478, 
+					"z": -71.81165
+				},
+				"alignToNormal" : true,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/XML/NomaiText/Recorder_raft.xml"
 			},
 			{
-				"position" : {
-					"x" : -30.26833,  
-					"y": 428.482,
-					"z": 17.94576
-				}
+				"position": {
+					"x": -54.72826, 
+					"y": -206.1413, 
+					"z": -6.746882
+				},
+				"rotation": {
+					"x": -175.7765, 
+					"y": 90.63478, 
+					"z": -71.81165
+				},
+				"alignToNormal" : true,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/XML/NomaiText/Recorder_south_pole.xml"
 			},
 			{
-				"position" : {
-					"x" : 27.73476,  
-					"y": 420.2799,
-					"z": 63.65683
+				"position": {
+					"x": -198.583, 
+					"y": 25.75917, 
+					"z": -83.22459
+				},
+				"rotation": {
+					"x": -198.583, 
+					"y": 25.75917, 
+					"z": -83.22459
+				},
+				"alignToNormal" : true,
+				"type": "recorder",
+				"location": "unspecified",
+				"xmlFile": "planets/XML/NomaiText/Recorder_pod.xml"
+			}
+		],
+		"rafts": [
+			{
+				"position": {
+					"x": -179.6138,
+					"y": 81.05325,
+					"z": -69.03887
 				}
-			} 
+			}
+		],
+		"details": [
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire", 
+				"position" : {"x": -188.5639, "y": -4.890938, "z": -94.95956},
+				"alignToNormal" : true
+			}, 
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": -50.03842, "y": -206.6317, "z": -2.406391},
+				"scale" : 0.05,
+				"alignToNormal" : true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
+				"position" : {"x": -50.03842, "y": -206.6317, "z": -2.406391},
+				"scale" : 0.05,
+				"alignToNormal" : true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
+				"position" : {"x": -50.03842, "y": -206.6317, "z": -2.406391},
+				"scale" : 0.05,
+				"alignToNormal" : true
+			},
+			{
+				"path" : "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/EscapePod_Socket",
+				"position" : {"x": -203.3833, "y": 29.25957, "z": -73.74333},
+				"alignToNormal" : true
+			}
+		],
+		"reveal": [
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"radius": 525.0,
+				"revealOn": "enter",
+				"reveals": [
+					"DRAGONFRUIT_LANDING",
+					"DURIAN_RUMOR"
+				]
+			},
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"position": {
+					"x": -179.6138,
+					"y": 81.05325,
+					"z": -69.03887
+				},
+				"radius": 30.0,
+				"revealOn": "enter",
+				"reveals": [
+					"DRAGONFRUIT_RAFT"
+				]
+			},
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"position": {
+					"x": 38.71251,
+					"y": 210.3157,
+					"z": 9.719326
+				},
+				"radius": 10.0,
+				"revealOn": "enter",
+				"reveals": [
+					"DRAGONFRUIT_GEYSERS"
+				]
+			},
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"position": {
+					"x": -188.5639, 
+					"y": -4.890938, 
+					"z": -94.95956
+				},
+				"radius": 10.0,
+				"revealOn": "enter",
+				"reveals": [
+					"DRAGONFRUIT_CAMPFIRE"
+				]
+			},
+			{
+				"maxAngle": 180.0,
+				"maxDistance": -1.0,
+				"position": {
+					"x": -50.03842, 
+					"y": -206.6317, 
+					"z": -2.406391
+				},
+				"radius": 10.0,
+				"revealOn": "enter",
+				"reveals": [
+					"DRAGONFRUIT_DEADFISH"
+				]
+			},
 		]
+	},
+	"ReferenceFrame": {},
+	"Ring": {
+		"inclination": 45.0,
+		"innerRadius": 550.0,
+		"outerRadius": 780.0,
+		"rotationSpeed": 10.0,
+		"texture": "planets/assets/planet_rings.png",
+		"unlit": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/shiplogs/sprites/mapmode/Dragonfruit_map_mode.png"
+		},
+		"spriteFolder": "planets/ShipLogs/sprites/facts/Dragonfruit",
+		"xmlFile": "planets/ShipLogs/Dragonfruit.xml"
+	},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": -177.3561,
+			"y": 93.98032,
+			"z": -97.46547
+		},
+		"shipSpawnPoint": {
+			"x": -176.2087,
+			"y": 98.17373,
+			"z": -91.1474
+		},
+		"startWithSuit": true
+	},
+	"Water": {
+		"size": 209.0,
+		"tint": {
+			"r": 169,
+			"g": 53,
+			"b": 215,
+			"a": 0
+		}
 	}
 }

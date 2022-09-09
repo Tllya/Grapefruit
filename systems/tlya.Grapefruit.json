@@ -38,11 +38,19 @@
 		},
 		{
 			"id": "DRAGONFRUIT_GEYSERS_ENTRY",
-			"position": {"x": 1800, "y": 2500}
+			"position": {"x": 1535, "y": 2563}
 		},
 		{
 			"id": "DRAGONFRUIT_RAFT_ENTRY",
-			"position": {"x": 1900, "y": 2300}
+			"position": {"x": 1232, "y": 2992}
+		},
+		{
+			"id": "DRAGONFRUIT_CAMPFIRE_ENTRY",
+			"position": {"x": 1752, "y": 2847}
+		},
+		{
+			"id": "DRAGONFRUIT_DEADFISH_ENTRY",
+			"position": {"x": 1123, "y": 2673}
 		},
 		{
 			"id": "DURIAN_ENTRY",

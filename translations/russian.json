@@ -1,7 +1,29 @@
 {
     "DialogueDictionary" :
     	{
-		"" : ""
+		"Hi." : "Привет.",
+		"I found a raft." : "Я нашёл плот.",
+		"I will go to the South Pole and try to find Ernesto" : "Я поплыву на южный полюс и попробую найти Эрнесто",
+		"Ernesto... Where are you?" : "Эрнесто... Где же ты?",
+		
+		"Hi..." : "Привет...",
+		"I found Ernesto..." : "Я нашёл Эрнесто...",
+		"But he's dead. He seems to have been roasted at the stake..." : "Но он мёртв. Кажется его пожарили на костре...",
+		"I'll kill whoever did it!!!" : "Я убью того, кто это сделал!!!",
+		
+		"Ernesto is not here..." : "Эрнесто не здесь...",
+		"I'll take a raft (I don't know what it does there) to the South Pole. Ernesto could be there." : "Я залезу на плот (не знаю, что он тут делает) и поплыву на южный полюс. Эрнесто может быть там",
+		"Ernesto...." : "Эрнесто....",
+		
+		"FLIGHT LOG" : "ЖУРНАЛ ПОЛЁТА",
+		"We crashed into the planet..." : "Мы разбились об эту планету...",
+		"The computer froze halfway through the flight." : "Компьютер завис ещё на половине полёта",
+		"Ernesto and I are the only survivors, and we have to live here, on this planet." : "Эрнесто и я - единственные выжившие, и нам придётся жить здесь, на этой планете.",
+		
+		"Hi. Does this thing work?" : "Привет. Эта штука работает?",
+		"Oh, great! It didn't break in the escape pod crash." : "О, отлично! Она не сломалось после падения капсулы.",
+		"I lost my friend, Ernesto. I must find him. First I'll go to the North Pole, maybe he's there." : "Я потерял моего друга, Эрнесто. Я должен найти его. Первым делом я пойду на северный полюс, может он там",
+		"I hope someone reads this..." : "Я надеюсь это кто-нибудь прочтёт...",
    	},
     "ShipLogDictionary" :
     	{
@@ -14,6 +36,11 @@
 		
 		"Geyser Field" : "Поле гейзеров",
 		"Raft" : "Плот",
+		"Nomai's camp" : "Лагерь Номаи",
+		"Dead fish" : "Мёртвая рыба",
+		"Raft near camp" : "Плот рядом с лагерем",
+		"North pole" : "Северный полюс",
+		"South pole" : "Южный полюс",
 		
 
 		"A system with 4 planets orbiting a red dwarf. All of the planets here are named after food." : "Система с 4 планетами, которые вращаются вокруг красного карлика. Все планеты названы в честь еды.",
@@ -26,12 +53,24 @@
 		"The second planet from the star." : "Вторая планета от звезды.",
 		"Dragonfruit has air, water, and atmosphere. The most habitable planet in this star system." : "У этой планеты есть воздух, вода и атмосфера. Самая пригодная для жизни планета в этой системе.",
 		
-		"Near the north pole of Dragonfruit, I found a field with five geysers." : "Рядом с северным полюсом Драконьего фрукта я нашел поле с пятью гейзерами.",
-		
-		"I found a raft on the ocean shore. It's very strange, considering there isn't a living soul here. Who built it?" : "Я нашел плот на побережье океана. Это очень странно, учитывая то, что тут нет ни одной живой души. Кто его построил?",
-
-			"Dragonfruit's only moon." : "Единственная луна Драконьего фрукта.",
-			"Dragonfruit Moon. It rains all the time here, despite the absence of any water." : "Луна Драконьего фрукта. Здесь идёт постоянный дождь, несмотря на отсутствие какой-либо воды.",
+			"Near the north pole of Dragonfruit, I found a field with five geysers." : "Рядом с северным полюсом Драконьего фрукта я нашел поле с пятью гейзерами.",
+			"Nomai went to look for his friend Ernesto at the north pole" : "Номаи ушёл в поисках Эрнесто на северный полюс",
+			"The recorder at the north pole said that Nomai found nothing at the north pole and decided to go to the south pole" : "Судя по диктофону на северном полюсе, Номаи ничего не нашёл и решил пойти на северный полюс",
+			
+			"I found a raft on the ocean shore. It's very strange, considering there isn't a living soul here. Who built it?" : "Я нашел плот на побережье океана. Это очень странно, учитывая то, что тут нет ни одной живой души. Кто его построил?",
+			"The recorder says that Nomai sailed away on a raft." : "Номаи уплыл на плоту",
+			"After unsuccessful searches at the North Pole, Nomai set out on a raft near his camp to sail it to the South Pole" : "После безуспешных поисков на северном полюсе, Номаи сел на плот недалеко от своего лагеря, чтобы доплыть на нем до южного полюса.",
+			
+			"I found an anglerfish skeleton. What is it doing here?" : "Я нашёл скелет удильщика. Что он тут делает?",
+			"Nomai was very sad about Ernesto's death." : "Номаи было очень грустно из-за смерти Эрнесто",
+			"Nomai went to the South Pole in search of Ernesto." : "Номаи ушёл на южный полюс в поисках Эрнесто",
+			
+			"I found a campfire and a recorder. This looks like Nomai's camp." : "Я нашёл костёр и диктофон. Кажется, это лагерь Номаи.",
+			"The recorder had a recording of Nomai going to look for his friend, Ernesto, at the north pole." : "На диктофоне была запись, в которой было записано то, что Номаи потерял своего друга, Эрнесто, и собирался его искать на северном полюсе.",
+			
+			
+		"Dragonfruit's only moon." : "Единственная луна Драконьего фрукта.",
+		"Dragonfruit Moon. It rains all the time here, despite the absence of any water." : "Луна Драконьего фрукта. Здесь идёт постоянный дождь, несмотря на отсутствие какой-либо воды.",
 		
 
 		"The third planet from the star. It looks like a real pineapple." : "Третья планета от звезды. Выглядит как настоящий ананас.",

@@ -1,0 +1,31 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Hi.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Ernesto is not here...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>I'll take a raft (I don't know what it does there) to the South Pole. Ernesto could be there.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Ernesto....</Text>
+	</TextBlock>
+<ShipLogConditions>
+    <RevealFact>
+      <FactID>DRAGONFRUIT_GEYSERS_RECORDER</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+	<RevealFact>
+      <FactID>DRAGONFRUIT_RAFT_RUMOR</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+</ShipLogConditions>
+</NomaiObject>
