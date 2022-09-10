@@ -139,19 +139,28 @@
 			},
 			{
 				"position": {
-					"x": -198.583, 
-					"y": 25.75917, 
-					"z": -83.22459
+					"x": -196.5474, 
+					"y": 27.42278, 
+					"z": -74.34904
 				},
 				"rotation": {
-					"x": -198.583, 
-					"y": 25.75917, 
-					"z": -83.22459
+					"x": -196.851, 
+					"y": 28.04496, 
+					"z": -73.26492
 				},
-				"alignToNormal" : true,
 				"type": "recorder",
 				"location": "unspecified",
 				"xmlFile": "planets/XML/NomaiText/Recorder_pod.xml"
+			},
+			{
+				"position": {
+					"x": -198.7607, 
+					"y": 25.29419, 
+					"z": -82.91861
+				},
+				"type": "computer",
+				"location": "unspecified",
+				"xmlFile": "planets/XML/NomaiText/Computer_pod.xml"
 			}
 		],
 		"rafts": [
@@ -291,6 +300,9 @@
 		},
 		"startWithSuit": true
 	},
+	"removeChildren" : [
+		"Sector/EscapePod_Socket/Interactibles_EscapePod/Prefab_NOM_Vessel_Computer"
+		],
 	"Water": {
 		"size": 209.0,
 		"tint": {
