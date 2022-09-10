@@ -1,21 +1,21 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>FLIGHT LOG</Text>
+		<Text>TAKEOFF IS SUCCESSFUL. Takeoff Location: Gravity Cannon</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>We crashed into the planet...</Text>
+		<Text>Warning! Emergency landing!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>The computer says that the environment is favorable.</Text>
+		<Text>Landing is complete. Environmental scan...</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>Ernesto and I are the only survivors, and we have to live here, on this planet.</Text>
+		<Text>The air is present. Water is present. The environment is favorable.</Text>
 	</TextBlock>
 </NomaiObject>
