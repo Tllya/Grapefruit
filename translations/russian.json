@@ -17,8 +17,13 @@
 		
 		"FLIGHT LOG" : "ЖУРНАЛ ПОЛЁТА",
 		"We crashed into the planet..." : "Мы разбились об эту планету...",
-		"The computer froze halfway through the flight." : "Компьютер завис ещё на половине полёта",
+		"The computer says that the environment is favorable." : "Компьютер говорит, что обстановка благоприятная",
 		"Ernesto and I are the only survivors, and we have to live here, on this planet." : "Эрнесто и я - единственные выжившие, и нам придётся жить здесь, на этой планете.",
+		
+		"TAKEOFF IS SUCCESSFUL. Takeoff Location: Gravity Cannon" : "",
+		"Warning! Emergency landing!" : "Внимание! Аварийная посадка!",
+		"Landing is complete. Environmental scan..." : "Посадка завершна. Сканирование окружаещей среды...",
+		"The air is present. Water is present. The environment is favorable." : "Воздух присутствует. Вода присутствует. Обстановка благоприятная",
 		
 		"Hi. Does this thing work?" : "Привет. Эта штука работает?",
 		"Oh, great! It didn't break in the escape pod crash." : "О, отлично! Она не сломалось после падения капсулы.",
