@@ -1,0 +1,10 @@
+{
+	"AchievementTranslations" : {
+			{
+			"GRAPEFRUIT_ACHIEVEMENT_ERNESTO" : {
+				"Name" : "Sadness",
+				"Description" : "Find Ernesto's skeleton."
+			}
+		}
+	}
+}

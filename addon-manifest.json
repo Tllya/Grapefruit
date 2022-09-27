@@ -1,0 +1,9 @@
+{
+    "achievements" : [
+        {
+            "ID" : "GRAPEFRUIT_ACHIEVEMENT_ERNESTO",
+            "secret" : true,
+            "factIDs" : ["DRAGONFRUIT_DEADFISH_RECORDER"]
+        }
+    ]
+}
